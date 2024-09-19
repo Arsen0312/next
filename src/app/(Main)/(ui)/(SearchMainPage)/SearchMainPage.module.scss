@@ -1,0 +1,55 @@
+.main {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+
+  .wrapper {
+    background-color: #D9D9D9;
+    border-radius: 14px;
+    padding: 6px 10px;
+
+    span {
+      position: relative;
+
+      input[type="text"] {
+        border-radius: 14px 0 0 14px;
+        border: none;
+        outline: none;
+        padding: 10px;
+        min-height: 40px;
+
+      }
+
+      &::before {
+        content: "|";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+      }
+
+      input[type="date"] {
+        border-radius: 0 14px 14px 0;
+        border: none;
+        outline: none;
+        padding: 10px;
+        min-height: 40px;
+
+      }
+
+    }
+  }
+
+  button {
+    border: none;
+    border-radius: 8px;
+    background-color: #1D4ED8;
+    color: white;
+    padding: 10px 40px 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+}
