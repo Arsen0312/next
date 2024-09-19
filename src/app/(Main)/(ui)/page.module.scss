@@ -14,34 +14,13 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    overflow: hidden;
 
-    span {
-      position: relative;
-      z-index: 1;
       padding: 10px;
-      backdrop-filter: blur(2px);
 
       h1 {
         color: white;
         font-size: 36px;
       }
-    }
-
-    // Псевдоэлемент для размытого фона
-    &::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-image: url("./assets/mainBannerBackgroundImg.png");
-      background-size: cover;
-      background-position: center;
-      filter: blur(20px);
-      mask-image: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 70%);
-      z-index: 0;
     }
   }
 }
