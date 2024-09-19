@@ -1,0 +1,14 @@
+@import "@/main.module.scss";
+
+.header {
+  width: 100vw;
+  height: 60px;
+  background: $blue;
+  padding: 0 40px;
+
+  * {
+    color: white;
+
+  }
+
+}
