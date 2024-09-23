@@ -1,0 +1,22 @@
+.tourCards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  .rating {
+
+  }
+
+  .cardImage {
+    width: 250px;
+    height: 200px;
+  }
+
+  .star {
+    width: 20px; height: 20px;
+  }
+  .fullStar {
+    color: gold;
+  }
+}
