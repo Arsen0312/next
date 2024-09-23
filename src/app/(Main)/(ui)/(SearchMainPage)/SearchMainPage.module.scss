@@ -2,11 +2,12 @@
   display: flex;
   justify-content: center;
   gap: 16px;
+  background-color: #D9D9D9;
+  border-radius: 14px;
+  padding: 6px 10px;
+
 
   .wrapper {
-    background-color: #D9D9D9;
-    border-radius: 14px;
-    padding: 6px 10px;
 
     span {
       position: relative;
