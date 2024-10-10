@@ -1,0 +1,42 @@
+@import "@/main.module.scss";
+
+.main {
+  max-width: $maxWidth; width: 100%;
+  height: auto;
+  margin: 20px auto 0;
+
+  h1 {
+    text-align: center; font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  .wrapTourCard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+
+    .tourCard {
+      width: 32%;
+
+    }
+
+  }
+
+  pre {
+    width: 100%;
+    hyphens: manual;
+    overflow: hidden;
+  }
+
+}
+
+.errors {
+  width: 100%;
+  height: auto;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+}

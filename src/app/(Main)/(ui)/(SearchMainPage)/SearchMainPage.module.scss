@@ -1,3 +1,5 @@
+@import "@/main.module.scss";
+
 .main {
   display: flex;
   justify-content: center;
@@ -43,14 +45,12 @@
   }
 
   button {
-    border: none;
-    border-radius: 8px;
-    background-color: #1D4ED8;
-    color: white;
-    padding: 10px 40px 10px 20px;
+    @include buttonStyle;
+    padding-right: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
+
   }
 }

@@ -1,5 +1,4 @@
 import cls from "./SevenOblastsOfKyrgyzstan.module.scss"
-import Image from "next/image";
 
 import IssykKul from "@/assets/IssykKul.png"
 import chui from "@/assets/chui.png"
@@ -16,12 +15,12 @@ const SevenOblastsOfKyrgyzstan = () => {
             <h2>
                 7 Областей Кыргыстана
             </h2>
-            <Image
+            <img
                 width={1000} height={1000}
-                src={IssykKul} alt={"IssykKul"}/>
+                src={IssykKul.src} alt={"IssykKul"}/>
             <div className={cls.boxGridImages}>
                 <div className={cls.oblastCard}>
-                    <Image className={cls.gridImage} width={1000} height={1000} src={chui} alt={'chui'}/>
+                    <img className={cls.gridImage} width={1000} height={1000} src={chui.src} alt={'chui'}/>
                     <div className={cls.title}>
                         <h4>Чуйская</h4>
                         <span>
@@ -30,7 +29,7 @@ const SevenOblastsOfKyrgyzstan = () => {
                     </div>
                 </div>
                 <div className={cls.oblastCard}>
-                    <Image className={cls.gridImage} width={1000} height={1000} src={batken} alt={'batken'}/>
+                    <img className={cls.gridImage} width={1000} height={1000} src={batken.src} alt={'batken'}/>
                     <div className={cls.title}>
                         <h4>Баткенская</h4>
                         <span>
@@ -39,7 +38,7 @@ const SevenOblastsOfKyrgyzstan = () => {
                     </div>
                 </div>
                 <div className={cls.oblastCard}>
-                    <Image className={cls.gridImage} width={1000} height={1000} src={Naryn} alt={'Naryn'}/>
+                    <img className={cls.gridImage} width={1000} height={1000} src={Naryn.src} alt={'Naryn'}/>
                     <div className={cls.title}>
                         <h4>Нарын</h4>
                         <span>
@@ -48,7 +47,7 @@ const SevenOblastsOfKyrgyzstan = () => {
                     </div>
                 </div>
                 <div className={cls.oblastCard}>
-                    <Image className={cls.gridImage} width={1000} height={1000} src={Talaska} alt={'Talaska'}/>
+                    <img className={cls.gridImage} width={1000} height={1000} src={Talaska.src} alt={'Talaska'}/>
                     <div className={cls.title}>
                         <h4>Талас</h4>
                         <span>
@@ -57,7 +56,7 @@ const SevenOblastsOfKyrgyzstan = () => {
                     </div>
                 </div>
                 <div className={cls.oblastCard}>
-                    <Image className={cls.gridImage} width={1000} height={1000} src={Osh} alt={'Osh'}/>
+                    <img className={cls.gridImage} width={1000} height={1000} src={Osh.src} alt={'Osh'}/>
                     <div className={cls.title}>
                         <h4>Ош</h4>
                         <span>
@@ -66,7 +65,7 @@ const SevenOblastsOfKyrgyzstan = () => {
                     </div>
                 </div>
                 <div className={cls.oblastCard}>
-                    <Image className={cls.gridImage} width={1000} height={1000} src={JalalAbad} alt={'JalalAbad'}/>
+                    <img className={cls.gridImage} width={1000} height={1000} src={JalalAbad.src} alt={'JalalAbad'}/>
                     <div className={cls.title}>
                         <h4>Жала-бад</h4>
                         <span>

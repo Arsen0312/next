@@ -1,7 +1,4 @@
-import React from 'react';
-
 import cls from "./SearchMainPage.module.scss"
-import Image from "next/image";
 import searchSvgIcon from "./assets/search.svg"
 
 const SearchMainPage = () => {
@@ -15,10 +12,10 @@ const SearchMainPage = () => {
                 </span>
             </span>
             <button>
-                <Image
+                <img
                     width={20}
                     height={20}
-                    src={searchSvgIcon} alt={"searchSvgIcon"}/>
+                    src={searchSvgIcon.src} alt={"searchSvgIcon"}/>
                 Найти
             </button>
         </span>

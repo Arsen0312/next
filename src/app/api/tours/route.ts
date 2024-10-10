@@ -4,7 +4,7 @@ export async function GET() {
     try {
         // Получение данных с внешнего API
 
-        const response = await fetch("https://baktyiar.pythonanywhere.com/api/index/regions/");
+        const response = await fetch("https://traveltok.pythonanywhere.com/api/tours/");
 
         // Проверка, успешен ли ответ
         if (!response.ok) {
