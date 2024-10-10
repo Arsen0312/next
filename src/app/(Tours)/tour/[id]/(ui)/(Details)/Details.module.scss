@@ -1,0 +1,168 @@
+@import "@/main.module.scss";
+
+.tourDetails {
+  max-height: 273px;
+  display: flex; gap: 10px;
+
+  .leftDetails {
+    width: 53.39%;
+    display: flex; gap: 10px;
+    flex-wrap: wrap;
+
+    .wrapperData {
+      width: 100%;
+      display: flex; gap: 1rem;
+
+      @mixin dataStyle {
+        width: calc(50% - 8px); max-width: 117px;
+        padding: 8px 0;
+        border-radius: 10px;
+        background-color: $blue;
+        color: white;
+        text-align: center;
+
+        span {
+          font-size: 14px;
+        }
+
+        div {
+          font-size: 12px;
+          text-align: center;
+        }
+      }
+      .startTour {
+        @include dataStyle;
+      }
+
+      .endTour {
+        @include dataStyle;
+      }
+    }
+
+    .lang {
+      width: 100%;
+      padding: 13px 14px 30px;
+      border-radius: 10px;
+      background-color: white;
+
+      h4 {
+        margin-bottom: 10px;
+        color: $gray;
+
+      }
+
+      div {
+        color: $blue;
+        font-size: 14px;
+      }
+
+    }
+
+    .comfort {
+      width: 100%;
+      padding: 10px 14px;
+      border-radius: 10px;
+      background-color: white;
+
+      h4 {
+        margin-bottom: 10px;
+        color: $gray;
+
+      }
+
+      div {
+        margin-bottom: 10px;
+        font-size: 14px;
+
+      }
+
+      h5 {
+        color: $blue;
+        font-size: 10px;
+      }
+    }
+  }
+
+  .rightDetails {
+    width: 46.6%;
+    display: flex; gap: 10px;
+    flex-direction: column;
+
+    .participantsTour {
+      width: 100%;
+      padding: 9.5px 14px;
+      border-radius: 10px;
+      background-color: white;
+
+
+      h4 {
+        margin-bottom: 24px;
+        color: $gray;
+
+      }
+
+      .containerPhotoParticipants {
+        width: 100%;
+        display: flex; gap: 8.2px;
+        margin-bottom: 24px;
+
+
+        img {
+          border-radius: 50%;
+          object-fit: cover;
+          opacity: 0.8;
+        }
+
+        .otherMembers {
+          width: 42px; height: 42px;
+          border-radius: 50%; border: 1px solid #D0D0D0;
+          display: flex; justify-content: center; align-items: center;
+
+          color: #D0D0D0;
+        }
+
+      }
+
+      h5 {
+        color: $blue;
+        font-size: 10px;
+      }
+
+    }
+
+    .routeTour {
+      width: 100%; max-height: 118px;
+      padding: 6px 14px;
+      border-radius: 10px;
+      background-color: white;
+
+      h4 {
+        margin-bottom: 24px;
+        color: $gray;
+
+      }
+
+      .logoRoute {
+        display: flex; gap: 10px;
+        margin-bottom: 24px;
+
+        .line {
+          width: 100%;
+          height: auto;
+          border-bottom: 2px solid black;
+          display: flex;
+          justify-content: center;
+
+        }
+
+      }
+
+      h5 {
+        color: $blue;
+        font-size: 10px;
+      }
+
+    }
+
+  }
+}
