@@ -50,7 +50,7 @@
     }
 
     button {
-      @include buttonStyle;
+      @include buttonStyle($blue);
     }
 
   }
