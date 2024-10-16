@@ -1,0 +1,133 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/app/About/(ui)/About.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.About_main__joHvj {
+  width: 100vw;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media (max-width: 1280px) {
+  .About_main__joHvj {
+    padding: 0 40px;
+  }
+}
+@media (max-width: 600px) {
+  .About_main__joHvj {
+    padding: 0 16px;
+  }
+}
+.About_main__joHvj .About_a__F7dEG a {
+  font-weight: 500;
+  font-size: 24px;
+  text-decoration: none;
+  color: inherit;
+}
+.About_main__joHvj .About_a__F7dEG a span {
+  color: #FF7700;
+}
+@media (max-width: 600px) {
+  .About_main__joHvj .About_a__F7dEG a {
+    font-size: 16px;
+  }
+}
+.About_main__joHvj h1 {
+  text-align: center;
+  font-size: 36px;
+}
+@media (max-width: 1280px) {
+  .About_main__joHvj h1 {
+    text-align: left;
+  }
+}
+@media (max-width: 600px) {
+  .About_main__joHvj h1 {
+    text-align: left;
+  }
+}
+.About_main__joHvj .About_aboutAs__zbG7a {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+@media (max-width: 960px) {
+  .About_main__joHvj .About_aboutAs__zbG7a {
+    flex-direction: column;
+  }
+}
+.About_main__joHvj .About_aboutAs__zbG7a .About_wrapperDescription__BvQXX {
+  width: 66.12%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  gap: 20px;
+}
+@media (max-width: 960px) {
+  .About_main__joHvj .About_aboutAs__zbG7a .About_wrapperDescription__BvQXX {
+    width: 100%;
+  }
+}
+.About_main__joHvj .About_aboutAs__zbG7a img {
+  width: 32.25%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+@media (max-width: 960px) {
+  .About_main__joHvj .About_aboutAs__zbG7a img {
+    width: 100%;
+  }
+}
+.About_main__joHvj .About_license__igMgx {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.About_main__joHvj h2 {
+  text-align: center;
+  font-weight: 36px;
+}
+@media (max-width: 1280px) {
+  .About_main__joHvj h2 {
+    text-align: left;
+  }
+}
+@media (max-width: 600px) {
+  .About_main__joHvj h2 {
+    text-align: left;
+  }
+}
+.About_main__joHvj .About_sliderAdvantages__M27NV {
+  width: 100%;
+  overflow-x: auto;
+  display: flex;
+  gap: 20px;
+}
+.About_main__joHvj .About_sliderAdvantages__M27NV .About_advantagesItem__oszuG {
+  min-width: calc((100% - 40px) / 3);
+  width: 30%;
+  max-width: 280px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  gap: 16px;
+  background-color: #FFF3E4;
+  padding: 16px;
+  border-radius: 16px;
+}
+@media (max-width: 960px) {
+  .About_main__joHvj .About_sliderAdvantages__M27NV .About_advantagesItem__oszuG {
+    min-width: 280px;
+  }
+}
+.About_main__joHvj .About_sliderAdvantages__M27NV .About_advantagesItem__oszuG h3 {
+  color: #723D01;
+}
+.About_main__joHvj .About_sliderAdvantages__M27NV .About_advantagesItem__oszuG p {
+  color: black;
+}
