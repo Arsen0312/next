@@ -52,7 +52,7 @@
           }
 
           .buttonSave {
-            @include buttonStyle;
+            @include buttonStyle($blue);
             position: absolute;
             top: 0.5rem; right: 0.5rem;
             border-radius: 20px;

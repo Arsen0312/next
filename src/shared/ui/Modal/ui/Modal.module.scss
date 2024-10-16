@@ -1,0 +1,36 @@
+@import "@/main.module.scss";
+
+.main {
+  position: absolute; z-index: 2;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(1px);
+  display: flex; justify-content: center; align-items: center;
+  padding: 20px;
+
+  .contentModal {
+    position: relative;
+    max-width: 580px; width: 100%;
+    background-color: $bkgWhite;
+    border-radius: 8px;
+
+    .closeBtn {
+      position: absolute; top: 20px; right: 20px;
+      padding: 5px;
+      background-color: transparent;
+      border: none; border-radius: 8px;
+      line-height: 0;
+
+      transition: all 500ms;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+        transition: all 500ms;
+
+      }
+
+    }
+  }
+}

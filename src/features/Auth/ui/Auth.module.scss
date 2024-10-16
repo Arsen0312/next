@@ -1,0 +1,69 @@
+@import "@/main.module.scss";
+
+.main {
+  max-width: 580px;
+  padding: 63.5px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+
+  h3 {
+    font-size: 32px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .inputsContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      input {
+        @include inputStyle;
+        border: 1px solid white;
+      }
+
+      .wrapperInpForPositionLabelInInp {
+        position: relative;
+
+        label {
+          position: absolute;
+          right: 10px;
+          top: 10px;
+        }
+      }
+
+      .noValidate {
+        border: 1px solid red;
+      }
+
+    }
+
+    button {
+      @include buttonStyle($orange);
+      align-self: center;
+
+    }
+  }
+
+  .wrapperToggleLoginBtn {
+
+    div {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+
+      button {
+        background-color: transparent;
+        color: $orange;
+        border: none; border-bottom: 1px solid $orange;
+        cursor: pointer;
+
+      }
+    }
+  }
+}

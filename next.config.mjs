@@ -2,7 +2,7 @@
 
 const nextConfig = {
     images: {
-        domains: ['baktyiar.pythonanywhere.com'],
+        domains: ['baktyiar.pythonanywhere.com', "https://traveltok.pythonanywhere.com/"],
     }
 };
 

@@ -1,17 +1,35 @@
-$maxWidth: 1170px;
-$blue: #1D4ED8;
-$orange: #FF5A05;
+$maxWidth: 1240px;
+$blue: #0088FF;
+$orange: #FF8700;
 $gray: #9C9C9C;
 $darkGray: #757575;
 $lightGray: #D9D9D9;
+$bkgWhite: #E3E3E3;
 
 
-@mixin buttonStyle {
+@mixin buttonStyle($color) {
   border: none;
   border-radius: 8px;
-  background-color: $blue;
+
+  @if ($color == $blue) {
+    background-color: $blue;
+  } @else if ($color == $orange) {
+    background-color: $orange;
+  }
+
   color: white;
   padding: 10px 20px 10px 20px;
+}
+
+@mixin inputStyle {
+  width: 100%;
+  padding: 12px 16px;
+  border: none; border-radius: 8px;
+  color: black;
+
+  &:active {
+    outline: 1px solid $blue;
+  }
 }
 
 @mixin paddingForContainer {

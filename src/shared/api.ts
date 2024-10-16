@@ -1,0 +1,1 @@
+export const $api = "https://traveltokk.pythonanywhere.com/api/"
