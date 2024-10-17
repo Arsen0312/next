@@ -1,0 +1,32 @@
+.accordion {
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 100%;
+    max-width: 1032px;
+    margin: 0 auto;
+
+    @media (max-width: 1280px) {
+        padding: 0 40px; 
+    }
+
+    @media (max-width: 600px) {
+        padding: 0 16px; 
+    }
+}
+
+.accordionItem {
+    margin: 20px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #000000;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.answer {
+    padding: 15px;
+}

@@ -15,8 +15,14 @@
     "/About/(ui)/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/About/(ui)/page.js",
-      "static/css/app/About/(ui)/page.css"
+      "static/css/app/About/(ui)/page.css",
+      "static/chunks/app/About/(ui)/page.js"
+    ],
+    "/FAQ/(ui)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/FAQ/(ui)/page.css",
+      "static/chunks/app/FAQ/(ui)/page.js"
     ]
   }
 }

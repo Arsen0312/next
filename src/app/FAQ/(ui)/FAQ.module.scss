@@ -1,0 +1,40 @@
+@import "@/main.module.scss";
+
+.main {
+    width: 100vw; max-width: $maxWidth;
+    margin: 0 auto;
+
+    @media (max-width: 1280px) {
+        padding: 0 40px;
+    }
+
+    @media (max-width: 600px) {
+        padding: 0 16px;
+    }
+
+    .a {
+        a {
+            font-weight: 500;
+            font-size: 24px;
+            text-decoration: none; 
+            color: inherit; 
+
+            span {
+                color: #FF7700;
+            }
+
+            @media (max-width: 600px) {
+                font-size: 16px;
+            }
+        }
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 36px;
+
+        @media (max-width: 600px) {
+            font-size: 28px;
+        }
+    }
+}

@@ -1,4 +1,5 @@
 {
   "/(Main)/(ui)/page": "app/(Main)/(ui)/page.js",
-  "/About/(ui)/page": "app/About/(ui)/page.js"
+  "/About/(ui)/page": "app/About/(ui)/page.js",
+  "/FAQ/(ui)/page": "app/FAQ/(ui)/page.js"
 }
