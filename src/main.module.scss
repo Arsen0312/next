@@ -6,6 +6,18 @@ $darkGray: #757575;
 $lightGray: #D9D9D9;
 $bkgWhite: #E3E3E3;
 
+@mixin oneColons {
+  @media (width <= $maxWidth) {
+    width: calc(($maxWidth - 40px) / 3);
+
+  }
+
+  @media (width >= $maxWidth) {
+    width: calc((100vw - 40px) / 3)
+
+  }
+
+}
 
 @mixin buttonStyle($color) {
   border: none;
@@ -35,4 +47,18 @@ $bkgWhite: #E3E3E3;
 @mixin paddingForContainer {
   padding: 10px 32px;
   border-radius: 10px;
+}
+
+@mixin baseStyleForSection {
+  width: 100%; max-width: $maxWidth;
+  margin: 0 auto;
+
+  @media (width <= $maxWidth) {
+    padding: 0 40px;
+  }
+
+  @media (width <= 600px) {
+    padding: 0 16px;
+  }
+
 }
