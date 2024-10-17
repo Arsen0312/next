@@ -9,7 +9,6 @@ import UserIcon from "@/assets/UserIcon";
 import ChatIcon from "@/assets/ChatIcon";
 import useOutsideClick from "@/shared/utils/useOutsideClick";
 import Modal from "@/shared/ui/Modal/ui/Modal"
-import CloseIcon from "@/assets/CloseIcon";
 
 const LazyAuth = dynamic(() => import('@/features/Auth/ui/Auth'));
 

@@ -1,9 +1,9 @@
 @import "@/main.module.scss";
 
 .main {
-  max-width: $maxWidth;
   width: 100%;
-  margin: 52px auto 0;
+  @include baseStyleForSection;
+  margin-top: 52px;
 
   h2 {
     text-align: center;
