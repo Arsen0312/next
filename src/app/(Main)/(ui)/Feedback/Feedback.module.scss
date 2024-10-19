@@ -1,0 +1,156 @@
+@import "@/main.module.scss";
+
+.main {
+    max-width: $maxWidth;
+    width: 100%;
+    margin: 52px auto 0;
+
+    h2 {
+        text-align: center;
+        font-size: 36px;
+
+        @media (max-width: 425px) {
+            font-size: 20px;
+        }
+    }
+
+    h3 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 24px;
+        font-weight: normal;
+        color: #58564E;
+
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    .wrapper {
+        @media (max-width: 960px) {
+            display: flex;
+            gap: 15px;
+            overflow: scroll;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+        .review {
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 16px;
+            margin-bottom: 20px;
+            width: 100%;
+            color: #000;
+
+            @media (max-width: 960px) {
+                background-color: #0088FF;
+                color: #fff;
+                padding: 0;
+                width: 280px;
+                height: 100%;
+            }
+
+            .mediaContent {
+                display: none;
+
+                @media (max-width: 960px) {
+                    display: block;
+                }
+
+                .mediaImg {
+                    border-top-right-radius: 20px;
+                    border-top-left-radius: 20px;
+                }
+            }
+
+            .reviewWrapper {
+                display: flex;
+                flex-direction: column;
+
+                @media (max-width:960px) {
+                    flex-direction: column-reverse;
+                    padding: 12px 12px 0 12px;
+                }
+
+                .reviewHeader {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .image {
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        margin-right: 12px;
+
+                        @media (max-width: 960px) {
+                            display: none;
+                        }
+                    }
+
+                    .userInfo {
+                        flex-grow: 1;
+                    }
+
+                    .name {
+                        font-size: 14px;
+                        font-weight: bold;
+                    }
+
+                    .rating {
+                        display: flex;
+                        align-items: center;
+                        font-size: 20px;
+                        font-weight: bold;
+                    }
+
+                    .rating span {
+                        font-size: 24px;
+                        margin-right: 4px;
+                    }
+
+                    .star {
+                        align-self: start;
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+
+                .reviewBody {
+                margin-top: 12px;
+
+                @media (max-width: 960px) {
+                    margin-top: 0;
+                }
+
+                    .tourTitle {
+                        font-size: 14px;
+                        font-weight: bold;
+                        margin-top: 4px;
+                        margin-bottom: 10px;
+
+                        @media (max-width:960px) {
+                            display: none;
+                        }
+                    }
+
+                    p {
+                        font-size: 14px;
+                        line-height: 1.5;
+                        margin-bottom: 12px;
+                    }
+                }
+            }
+
+            .reviewDate {
+                font-size: 12px;  
+                font-weight: 700;   
+
+                @media (max-width: 960px) {
+                    padding-bottom: 12px;
+                    padding-left: 12px;
+                }
+            }
+        }
+    }
+}

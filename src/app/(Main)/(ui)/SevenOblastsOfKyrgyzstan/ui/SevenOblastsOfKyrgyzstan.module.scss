@@ -8,50 +8,116 @@
   h2 {
     text-align: center;
     font-size: 36px;
-    margin-bottom: 26px;
+
+    @media (max-width: 425px) {
+      font-size: 20px;
+    }
   }
 
-  img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    margin-bottom: 2%;
+  h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #58564E;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 
   .boxGridImages {
     display: flex;
     flex-wrap: wrap;
-    gap: 2%;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    
+    @media (max-width: 815px) {
+      flex-wrap: nowrap;
+      justify-content: start;
+      overflow: scroll;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
 
     .oblastCard {
       position: relative;
-      width: 32%;
-      height: auto;
 
       .gridImage {
-        width: 100%;
-        height: auto;
         object-fit: cover;
+        border-radius: 30px;
+
+        @media (max-width: 1024px) {
+          width: 280px;
+          height: 280px;
+        }
+
+         @media (max-width: 960px) {
+          width: 242px;
+          height: 242px;
+        }
       }
 
       .title {
         position: absolute;
-        left: 30px;
-        bottom: 30px;
-        z-index: 2;
-        color: white;
+        bottom: 20px;
+        left: 20px;
 
         h4 {
           font-size: 24px;
+          color: white;
         }
+      }
+    }
+  }
 
-        span {
+  &Bottom {
+    display: flex;
+    justify-content: space-around;
+    flex: 33.33%;
+    margin-bottom: 50px;
 
+    @media (max-width: 668px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    &Box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex: 33%;
+      text-align: center;
+
+      @media (max-width: 668px) {
+        max-width: 242px;
+      }
+
+      .svgImg {
+        padding-bottom: 10px;
+      }
+
+      h5 {
+        font-size: 22px;
+
+        @media (max-width: 1024px) {
+          font-size: 20px;
         }
       }
 
+      p {
+        font-size: 16px;
+        padding: 10px 60px 0;
+        color: #58564E;
 
+        @media (max-width: 1024px) {
+          font-size: 14px;
+          padding: 8px 10px 0;
+          line-height: 20px;
+        }
+      }
     }
-
   }
 }

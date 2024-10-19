@@ -1,0 +1,143 @@
+@import "@/main.module.scss";
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main {
+    max-width: $maxWidth;
+    width: 100%;
+    margin: 32px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+
+    @media (max-width:960px) {
+        display: block;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+        flex: 30%;
+        gap: 20px;
+
+        .cardItem {
+            position: relative;
+            flex: 30%;
+            background-color: #fff;
+
+            @media (max-width: 960px) {
+                max-width: 280px;
+            }
+
+            .image {
+                object-fit: cover;
+                width: 100%;
+                
+
+                @media (max-width: 960px) {
+                    width: 280px;
+                }
+            }
+
+            .description {
+                margin-top: -4px;
+                padding: 10px;
+                border: 1px solid;
+            }
+
+            .tour {
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            .type {
+                margin: 8px 0;
+                font-size: 12px;
+            }
+
+            .svg {
+                display: inline-block;
+                margin-right: 8px;
+            }
+
+            .numbers {
+                display: flex;
+                justify-content: space-between;
+
+                .sum {
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: #000;
+                    margin: 12px 0;
+                }
+
+                .rating {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 8px;
+                }
+
+                .rating span {
+                    margin-left: 4px;
+                    font-size: 14px;
+                }
+            }
+
+            button {
+                background-color: #007bff;
+                color: white;
+                font-size: 24px;
+                padding: 7px 12px;
+                border: none;
+                border-radius: 14px;
+                cursor: pointer;
+                width: 100%;
+            }
+
+            .discount {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+
+                span {
+                    position: absolute;
+                    top: 18px;
+                    left: 14px;
+                    font-size: 12px;
+                    color: #fff;
+                }
+            }
+
+            .popular {
+                position: absolute;
+                background-color: #16C741;
+                color: #fff;
+                padding: 4px;
+            }
+
+            .season {
+                position: absolute;
+                background-color: #2643E5;
+                color: #fff;
+                padding: 4px;
+            }
+
+            .heart {
+                position: absolute;
+                top: 16px;
+                right: 16px;
+                width: 24px;
+                height: 24px;
+                background-size: contain;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
