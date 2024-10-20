@@ -1,4 +1,5 @@
 import cls from "./SevenOblastsOfKyrgyzstan.module.scss"
+import Image from "next/image"
 
 import IssykKul from "@/assets/issyk-kol.png"
 import Bishkek from "@/assets/bishkek.png"
@@ -16,7 +17,6 @@ import svg3 from "@/assets/Icon (2).svg"
 const SevenOblastsOfKyrgyzstan = () => {
 
     return (
-<<<<<<< HEAD
             <section className={cls.main}>
                 <h2>
                     Области
@@ -114,72 +114,6 @@ const SevenOblastsOfKyrgyzstan = () => {
                     Топ часто покупаемых туров в нашем каталоге
                 </h3>
             </section>
-=======
-        <section className={cls.main}>
-            <h2>
-                7 Областей Кыргыстана
-            </h2>
-            <img
-                width={1000} height={1000}
-                src={IssykKul.src} alt={"IssykKul"}/>
-            <div className={cls.boxGridImages}>
-                <div className={cls.oblastCard}>
-                    <img className={cls.gridImage} width={1000} height={1000} src={chui.src} alt={'chui'}/>
-                    <div className={cls.title}>
-                        <h4>Чуйская</h4>
-                        <span>
-                            экскурсий
-                        </span>
-                    </div>
-                </div>
-                <div className={cls.oblastCard}>
-                    <img className={cls.gridImage} width={1000} height={1000} src={batken.src} alt={'batken'}/>
-                    <div className={cls.title}>
-                        <h4>Баткенская</h4>
-                        <span>
-                            экскурсий
-                        </span>
-                    </div>
-                </div>
-                <div className={cls.oblastCard}>
-                    <img className={cls.gridImage} width={1000} height={1000} src={Naryn.src} alt={'Naryn'}/>
-                    <div className={cls.title}>
-                        <h4>Нарын</h4>
-                        <span>
-                            экскурсий
-                        </span>
-                    </div>
-                </div>
-                <div className={cls.oblastCard}>
-                    <img className={cls.gridImage} width={1000} height={1000} src={Talaska.src} alt={'Talaska'}/>
-                    <div className={cls.title}>
-                        <h4>Талас</h4>
-                        <span>
-                            экскурсий
-                        </span>
-                    </div>
-                </div>
-                <div className={cls.oblastCard}>
-                    <img className={cls.gridImage} width={1000} height={1000} src={Osh.src} alt={'Osh'}/>
-                    <div className={cls.title}>
-                        <h4>Ош</h4>
-                        <span>
-                            экскурсий
-                        </span>
-                    </div>
-                </div>
-                <div className={cls.oblastCard}>
-                    <img className={cls.gridImage} width={1000} height={1000} src={JalalAbad.src} alt={'JalalAbad'}/>
-                    <div className={cls.title}>
-                        <h4>Жала-бад</h4>
-                        <span>
-                            экскурсий
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </section>
->>>>>>> bbcc3c208aa5de773870184ebb187c75d317507d
     );
 };
 
