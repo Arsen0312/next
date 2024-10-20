@@ -1,0 +1,142 @@
+@import "@/main.module.scss";
+
+.main {
+  max-width: $maxWidth;
+  width: 100%;
+  margin: 30px auto 0;
+
+  .searchContainer {
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      flex-direction: column-reverse;
+      gap: 10px;
+    }
+
+    .categoryDropdown {
+      width: 100%;
+      margin-right: 20px;
+      flex: 0.93;
+      position: relative;
+
+      @media (max-width: 768px) {
+        margin-right: 0;
+      }
+
+      .dropdownButton {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: white;
+        padding: 8px 12px;
+        border-radius: 8px;
+        cursor: pointer;
+        border-style: none;
+        font-size: 20px;
+        font-weight: 700;
+
+        @media (max-width: 768px) {
+          border-radius: 0;
+          padding: 8px 20px;
+        }
+
+        .listSvg {
+          margin-right: 15px;
+        }
+
+        .vectorSvg {
+          align-self: center;
+        }
+      }
+
+      .dropdownContent {
+        position: absolute;
+        top: 33px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 5px 20px;
+        z-index: 1;
+
+        @media (max-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+      }
+
+      .dropdownItem {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px;
+        background-color: #4285f4;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        margin-bottom: 5px;
+        text-align: center;
+        font-weight: 700;
+        cursor: pointer;
+
+        @media (max-width: 768px) {
+            flex: 40%;
+        }
+
+        &:hover {
+          background-color: #357ae8;
+        }
+      }
+    }
+
+    .searchInputWrapper {
+      width: 100%;
+      display: flex;
+      position: relative;
+      flex: 1.9;
+
+      .ellipseSvg {
+        position: absolute;
+        top: 8px;
+        left: 20px;
+      }
+    }
+
+    .searchInput {
+      width: 100%;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+      border-style: none;
+      font-size: 20px;
+      font-weight: 700;
+      color: #000;
+      padding-left: 52px;
+
+      @media (max-width: 768px) {
+        border-radius: 0;
+        padding-left: 62px;
+      }
+    }
+
+    .searchButton {
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+      cursor: pointer;
+      flex-grow: 0.5;
+      font-size: 20px;
+      font-weight: 700;
+
+      @media (max-width: 768px) {
+        border-radius: 0;
+        padding: 8px 20px;
+      }
+    }
+  }
+}
