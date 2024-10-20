@@ -1,22 +1,90 @@
-.tourCards {
+@import "@/main.module.scss";
+
+.main {
+  position: relative;
+  width: 370px;
+  height: 430px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  gap: 20px;
 
-  .rating {
+  .wrapperImage {
+    width: 100%;
+
+    img {
+      width: 100%; max-width: 370px;
+      max-height: 260px;
+      object-fit: cover;
+      border-radius: 7px;
+
+    }
 
   }
 
-  .cardImage {
-    width: 250px;
-    height: 200px;
+  .title {
+    margin-top: 5px;
+    display: flex; gap: 16px;
+    align-items: center; justify-content: space-between;
+
+    h4 {
+      font-size: 16px; font-weight: 700;
+      display: flex; align-items: center; gap: 5px;
+
+    }
+
+
+
   }
 
-  .star {
-    width: 20px; height: 20px;
+  .description {
+    width: 100%; height: auto;
+    margin-top: 10px;
+
+    p {
+      font-size: 13px; font-weight: 500;
+    }
+
   }
-  .fullStar {
-    color: gold;
+
+  .priceWithOrderTour {
+    display: flex; justify-content: space-between;
+
+    span {
+      font-size: 24px;
+    }
+
+    button {
+      @include buttonStyle($blue);
+    }
+
   }
+
+  .wrapperDiscountIcon {
+    position: absolute;
+    top: -9.6px;
+    right: 5px;
+    z-index: 1;
+
+    .wrapperForPositionDiscount {
+      position: relative;
+
+      img {
+        max-width: 85px;
+        height: 90px;
+      }
+
+      span {
+        position: absolute; z-index: 2;
+        top: 50%; right: 45%;
+        transform: translate(50%, -50%);
+        font-size: 24px; color: #fff;
+
+      }
+
+
+    }
+
+
+
+  }
+
 }

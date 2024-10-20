@@ -5,4 +5,12 @@
     text-decoration: none;
     /* font-family: "Comic Sans MS", cursive; */
 
+    a {
+        color: inherit;
+    }
+
+}
+
+body {
+    background-color: #faf7f7;
 }

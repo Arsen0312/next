@@ -1,2 +1,64 @@
-$maxWidth: 1280px;
-$blue: #1D4ED8;
+$maxWidth: 1240px;
+$blue: #0088FF;
+$orange: #FF8700;
+$gray: #9C9C9C;
+$darkGray: #757575;
+$lightGray: #D9D9D9;
+$bkgWhite: #E3E3E3;
+
+@mixin oneColons {
+  @media (width <= $maxWidth) {
+    width: calc(($maxWidth - 40px) / 3);
+
+  }
+
+  @media (width >= $maxWidth) {
+    width: calc((100vw - 40px) / 3)
+
+  }
+
+}
+
+@mixin buttonStyle($color) {
+  border: none;
+  border-radius: 8px;
+
+  @if ($color == $blue) {
+    background-color: $blue;
+  } @else if ($color == $orange) {
+    background-color: $orange;
+  }
+
+  color: white;
+  padding: 10px 20px 10px 20px;
+}
+
+@mixin inputStyle {
+  width: 100%;
+  padding: 12px 16px;
+  border: none; border-radius: 8px;
+  color: black;
+
+  &:active {
+    outline: 1px solid $blue;
+  }
+}
+
+@mixin paddingForContainer {
+  padding: 10px 32px;
+  border-radius: 10px;
+}
+
+@mixin baseStyleForSection {
+  width: 100%; max-width: $maxWidth;
+  margin: 0 auto;
+
+  @media (width <= $maxWidth) {
+    padding: 0 40px;
+  }
+
+  @media (width <= 600px) {
+    padding: 0 16px;
+  }
+
+}

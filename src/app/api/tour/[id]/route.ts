@@ -1,17 +1,18 @@
 import { NextResponse } from 'next/server';
-import {TTour} from "@/app/api/tour/[id]/type";
+import {Tour} from "@/app/api/tours/type";
 
 export async function GET(request: Request, { params }: { params: { id: string } }) {
     const { id } = params;
 
     try {
-        const response = await fetch(`https://baktyiar.pythonanywhere.com/api/index/regions/${id}/tours/`);
+        const response = await fetch(`https://traveltok.pythonanywhere.com/tours-api/${id}/`);
+        // https://traveltok.pythonanywhere.com/tours-api/1/
 
         if (!response.ok) {
             throw new Error(`Ошибка при получении данных: ${response.status}`);
         }
 
-        const data: TTour = await response.json();
+        const data: Tour = await response.json();
         return NextResponse.json(data);
     } catch (error) {
         console.error('Ошибка при получении данных:', error);

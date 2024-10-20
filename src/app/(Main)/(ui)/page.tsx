@@ -8,6 +8,7 @@ import FavoriteTours from "./FavoriteTours/FavoriteTours";
 
 export default async function Home() {
 
+
     return (
         <main className={cls.main}>
             <div className={cls.bg}>

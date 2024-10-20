@@ -9,50 +9,37 @@
 
   a {
     cursor: pointer;
+
+    h1 {
+      font-size: 34px;
+    }
   }
 
   .centerContentHeaderNav {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 28px;
 
-    div {
-      position: relative;
+   a {
+     padding: 16px;
+     border-radius: 20px;
+     color: white;
+     background-color: #181818;
+     display: flex; justify-content: center; align-items: center; gap: 12px;
 
-      input {
-        border: 2px solid white;
-        background-color: rgba(255, 255, 255, 0.1);
-        border-radius: 6px;
-        padding: 5px 20px;
-        outline: none;
+     img {
+       color: white;
+     }
 
-        &::placeholder {
-          color: white;
-        }
-      }
+   }
 
-      label {
-        position: absolute;
-        right: 10px;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 2;
-        display: flex;
-        align-items: center;
-      }
-    }
-
-    select {
-      background-color: transparent;
+    .profile {
+      background-color: white;
+      padding: 16px;
+      color: black;
+      border-radius: 20px;
       border: none;
-      outline: none;
+      display: flex; justify-content: center; align-items: center; gap: 12px;
     }
-  }
-
-  .profile {
-    background-color: white;
-    padding: 10px 20px;
-    color: $blue;
-    border-radius: 6px;
   }
 }

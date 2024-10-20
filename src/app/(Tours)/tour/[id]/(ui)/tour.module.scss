@@ -1,0 +1,115 @@
+@import "@/main.module.scss";
+
+.main {
+  width: 100vw; max-width: $maxWidth;
+  height: auto;
+  margin: 40px auto;
+
+  .content {
+    width: 100%;
+
+    .headContent {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 1rem;
+
+
+      h2 {
+        display: flex; align-items: center; gap: 1rem;
+
+      }
+
+      .rating {
+        display: flex; align-items: center; gap: 0.5rem;
+        padding-right: 5px;
+
+        img {
+
+        }
+
+        h3 {
+
+        }
+      }
+    }
+
+    .mainContent {
+      width: 100%; height: auto;
+      display: flex; gap: 1rem;
+
+      .descriptionContent {
+        width: 58.2%;
+        height: auto;
+
+        .wrapperBanner {
+          position: relative;
+          width: 100%;
+
+          img {
+            border-radius: 24px 0 0 24px;
+            width: 100%;
+            height: auto; max-height: 456px;
+
+          }
+
+          .buttonSave {
+            @include buttonStyle($blue);
+            position: absolute;
+            top: 0.5rem; right: 0.5rem;
+            border-radius: 20px;
+            display: flex; align-items: center; gap: 5px;
+            font-size: 16px;
+
+            img {
+              width: 24px; height: 22px;
+            }
+          }
+
+          .btnGallery {
+            position: absolute; right: 0.5rem; top: 4rem;
+            border-radius: 20px; padding: 6px 15px;
+            background: transparent; border: 1px solid white;
+            font-size: 16px; color: white;
+            display: flex; align-items: center; gap: 8px;
+
+            img {
+              width: 24px; height: 24px;
+
+            }
+          }
+        }
+
+        .description {
+          width: 100%;
+          display: flex; flex-direction: column; gap: 0.5rem;
+
+          h4 {
+
+          }
+
+          p {
+            font-size: 15px;
+            line-height: 24px;
+          }
+
+        }
+
+      }
+
+      .rightContent {
+        min-height: 100vh;
+        width: 41.8%;
+        position: relative;
+
+        .wrapperRightContent {
+          position: sticky; top: 10px; right: 0;
+          display: flex; flex-direction: column; gap: 10px;
+
+
+        }
+
+      }
+    }
+
+  }
+
+}

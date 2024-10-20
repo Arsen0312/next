@@ -1,0 +1,142 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/app/(Main)/(ui)/page.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.page_main__HymQi {
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+}
+.page_main__HymQi .page_heroSection__NJWKY {
+  width: 100%;
+  height: 40vh;
+  background-image: url(/_next/static/media/mainBannerBackgroundImg.314519c9.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 0 0 20px 20px;
+  padding: 10px;
+}
+.page_main__HymQi .page_heroSection__NJWKY h1 {
+  color: white;
+  font-size: 36px;
+}
+.page_main__HymQi .page_heroSection__NJWKY .page_searchMainPage__4fMlH {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/app/(Main)/(ui)/(SearchMainPage)/SearchMainPage.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.SearchMainPage_main__848bU {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  background-color: #D9D9D9;
+  border-radius: 14px;
+  padding: 6px 10px;
+}
+.SearchMainPage_main__848bU .SearchMainPage_wrapper__Oqjj6 span {
+  position: relative;
+}
+.SearchMainPage_main__848bU .SearchMainPage_wrapper__Oqjj6 span input[type=text] {
+  border-radius: 14px 0 0 14px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  min-height: 40px;
+}
+.SearchMainPage_main__848bU .SearchMainPage_wrapper__Oqjj6 span::before {
+  content: "|";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.SearchMainPage_main__848bU .SearchMainPage_wrapper__Oqjj6 span input[type=date] {
+  border-radius: 0 14px 14px 0;
+  border: none;
+  outline: none;
+  padding: 10px;
+  min-height: 40px;
+}
+.SearchMainPage_main__848bU button {
+  border: none;
+  border-radius: 8px;
+  background-color: #1D4ED8;
+  color: white;
+  padding: 10px 40px 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/app/(Main)/(ui)/SevenOblastsOfKyrgyzstan/ui/SevenOblastsOfKyrgyzstan.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.SevenOblastsOfKyrgyzstan_main__WVj5L {
+  max-width: 1280px;
+  width: 100%;
+  margin: 52px auto 0;
+}
+.SevenOblastsOfKyrgyzstan_main__WVj5L h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 26px;
+}
+.SevenOblastsOfKyrgyzstan_main__WVj5L img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 2%;
+}
+.SevenOblastsOfKyrgyzstan_main__WVj5L .SevenOblastsOfKyrgyzstan_boxGridImages__wBL5c {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+.SevenOblastsOfKyrgyzstan_main__WVj5L .SevenOblastsOfKyrgyzstan_boxGridImages__wBL5c .SevenOblastsOfKyrgyzstan_oblastCard__vHZaO {
+  position: relative;
+  width: 32%;
+  height: auto;
+}
+.SevenOblastsOfKyrgyzstan_main__WVj5L .SevenOblastsOfKyrgyzstan_boxGridImages__wBL5c .SevenOblastsOfKyrgyzstan_oblastCard__vHZaO .SevenOblastsOfKyrgyzstan_gridImage__AO1rD {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.SevenOblastsOfKyrgyzstan_main__WVj5L .SevenOblastsOfKyrgyzstan_boxGridImages__wBL5c .SevenOblastsOfKyrgyzstan_oblastCard__vHZaO .SevenOblastsOfKyrgyzstan_title__6MXCz {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  z-index: 2;
+  color: white;
+}
+.SevenOblastsOfKyrgyzstan_main__WVj5L .SevenOblastsOfKyrgyzstan_boxGridImages__wBL5c .SevenOblastsOfKyrgyzstan_oblastCard__vHZaO .SevenOblastsOfKyrgyzstan_title__6MXCz h4 {
+  font-size: 24px;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/app/(Tours)/tour/(TourCurd)/TourCard.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.TourCard_tourCards__YjReM {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.TourCard_tourCards__YjReM .TourCard_cardImage__IE14i {
+  width: 250px;
+  height: 200px;
+}
+.TourCard_tourCards__YjReM .TourCard_star__bWHH0 {
+  width: 20px;
+  height: 20px;
+}
+.TourCard_tourCards__YjReM .TourCard_fullStar__QhFZZ {
+  color: gold;
+}
